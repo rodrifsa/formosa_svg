@@ -11,6 +11,10 @@ a {
     color: red;
 }
 
+.icono {
+    margin-top: 100px;
+}
+
 polyline:hover {
     filter: drop-shadow(-5px 5px 1px grey);
 }
@@ -39,7 +43,6 @@ h2 {
 }
 
 
-
 .referencias {
     width: 20%;
     margin-left: -25%;
@@ -51,8 +54,8 @@ width: 50px;
 height: 30px;
 margin: 5px;
 padding: 0;
-    border: 1px black solid;
-    border-radius: 5%;
+border: 1px black solid;
+border-radius: 5%;
 
 }
 
@@ -107,6 +110,10 @@ display: inline-block;
     margin: 0%;
 }
 
+.inlinePalabra:hover {
+    color: red;
+}
+
 h3 {
     display: flex;
     justify-content: center;
@@ -124,3 +131,5 @@ img{
     height: 300px;
     padding: 10px;
   }
+
+  
