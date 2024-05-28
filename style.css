@@ -7,6 +7,10 @@ a {
     color: black;
 }
 
+svg{
+    margin-left: 100px;
+}
+
 .volver:hover {
     color: red;
 }
@@ -132,4 +136,7 @@ img{
     padding: 10px;
   }
 
-  
+.highlight {
+    filter: drop-shadow(-5px 5px 2px grey);
+    transform: scale(1.005);
+}
