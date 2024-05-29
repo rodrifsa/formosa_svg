@@ -152,24 +152,23 @@ main{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;    /* Centra verticalmente */
-    width: 59%;
+    width: 80%;
 }
 
 .cuerpo1{
     display: flex;
     justify-content: center; /* Centra horizontalmente */
     align-items: center;    /* Centra verticalmente */
-    width: 71%;
+    width: 94%;
 }
 
 .info{
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
 }
 
 .info ul {
     list-style: none;
-    padding: 0;
 }
 
 .info ul li {
