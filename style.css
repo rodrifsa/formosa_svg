@@ -140,3 +140,39 @@ img{
     filter: drop-shadow(-5px 5px 2px grey);
     transform: scale(1.005);
 }
+
+main{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+    min-height: 100vh;     
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+    width: 59%;
+}
+
+.cuerpo1{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;    /* Centra verticalmente */
+    width: 71%;
+}
+
+.info{
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.info ul li {
+    margin-bottom: 20px;
+}
+
