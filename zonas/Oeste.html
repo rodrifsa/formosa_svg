@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="../style.css">
 </head>
 <body style="background-color: rgb(240, 183, 173);">
-    <a href="../formosasvg.html"><h2 class="volver"><- Atras</h2></a>
     <header>
-    <h1 class="zona">REGIÓN OESTE</h1>
+        <h1 class="zona">REGIÓN OESTE</h1>
     </header> 
+    <div class="volver">
+        <a href="../formosasvg.html" class="volver"><h2><- Atras</h2></a>
+    </div>
     <br>
     <br>
     <br>
@@ -40,5 +42,14 @@
             
         </section>
     </main>
+
+    <script>
+        document.addEventListener('scroll', function() {
+            var scrollPosition = window.scrollY;
+            var volverButton = document.querySelector('.volver');
+            volverButton.style.top = (scrollPosition + 10) + 'px';
+        });
+    </script>
+
 </body>
 </html>

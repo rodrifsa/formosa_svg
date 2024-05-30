@@ -11,6 +11,12 @@ svg{
     margin-left: 100px;
 }
 
+.volver{
+    position: fixed;
+    top: 10px; /* Posición inicial */
+    left: 10px; /* Ajusta según sea necesario */
+}
+
 .volver:hover {
     color: red;
 }
@@ -38,9 +44,6 @@ h1 {
     font-family: sans-serif;
 }
 
-.zona{
-    margin-top: -50px;
-}
 
 h2 {
     font-family: sans-serif;
